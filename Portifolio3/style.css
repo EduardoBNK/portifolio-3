@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    scroll-behavior: smooth;
+
+}
+
+.cabecalho{
+    height: 100vh;
+    background: purple;
+    
+}
+
+.navbar{
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+    box-shadow: 0 0 10px black;
+
+
+
+}
+
+.logo a{
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px white;
+}
+
+.navgation a{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.botao {
+    border-radius: 18px;
+    background: black;
+    color: white;
+    padding:10px  30px;
+    border: 2px solid white;
+    margin-left: 30px;
+}
+
+.botao2{
+    color: white;
+    background: purple;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 25px;
+    padding: 10px 25px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+   
+}
+.title{
+    text-align: center;
+    flex-direction: column;
+    line-height: 80px;
+
+}
+.title h1{
+    font-size: 6em;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px white;
+}
+.title p{
+    font-size: 1.5em;
+}
+.foto{
+    background: rgb(170, 16, 170);
+    height: 300px;
+    width: 600px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+   margin-left: 60px;
+}
+.foto img{
+top: -33.8%;
+position: relative;
+overflow: hidden;
+}
+
+#corpo{
+    height: 100vh;
+    
+}
+
+.habs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.link{
+    height: 400px;
+    width: 300px;
+    background: white;
+
+    margin: 30px;
+    border: 2px solid purple;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom: 12px solid purple;
+    border-right: 12px solid purple;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    transition:all .3s ease-in-out;
+}
+.link:hover{
+    scale: 1.1;
+
+}
+.habs i{
+    color: purple;
+    font-size: 80px;
+}
+
+.habs .link .text1 p{
+    color: purple;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.habs .link .text2 p{
+    color: purple;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.habs .link .text3 p{
+    margin-top: 50px;
+    color: purple;
+    font-size: 35px;
+}
+
+#corpo h2{
+    color: purple;
+    font-size: 3em;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    padding-top: 20px;
+}
+#projetos{
+    height: 100vh;
+    background: purple;
+}
+.pro h2{
+    font-size: 5em;
+}
+.pro p{
+    font-size: 2em;
+}
+.pro a{
+    background: purple;
+    border-radius: 30px;
+    border: 2px solid white;
+    padding: 15px 30px;
+
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 201%;
+    left: 10%;
+    position: absolute;
+
+    margin:0 30px;
+}
+
+.pro{
+    flex-direction: column;
+
+    justify-content: center;
+    line-height: 90px;
+}
+
+.fotos2{
+    width: 500px;
+    padding-top: 28px;
+}
+
+.fotos2 img{
+    width: 330px;
+    margin: 15px;
+    border-radius: 15px;
+    border: 2px solid black;
+    transition: .3s ease-in-out;
+    
+}
+
+.foto2 a:hover{
+    scale: 1.2;
+   
+}
+
+#belo{
+    height: 100vh;
+
+}
+.text5 h2{
+    color: purple;
+    font-size: 3em;
+}
+.text5 h2 span{
+    color: purple;
+    text-shadow: 0 0 10px purple;
+    font-size: 1.5em;
+}
+.text5 p{
+    color: purple;
+    font-size: 1.5em;
+}
+.flex2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    top: 310%;
+
+}
+
+.flex2 img{
+    width: 500px;
+    border: 2px solid purple;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom: 12px solid purple;
+    border-right: 12px solid purple;
+}
+
+.redes a i{
+    background: purple;
+    font-size: 50px;
+    padding: 15px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom: 4px solid purple;
+    border-right: 10px solid purple;
+    margin: 10px;
+
+}
+.text5{
+    line-height: 80px;
+}
+
+#final{
+    height: 100vh;
+    background: purple;
+}
+
+
+.contato2{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.contato2 input{
+    width: 300px;
+    height: 35px;
+    padding-left: 10px;
+    font-size: 18px;
+    outline: 0;
+    border: 2px solid white;
+    background: purple;
+    border-radius: 28px;
+    
+}
+
+.contato2 textarea{
+    width:300px;
+    border-radius: 20px;
+    height: 150px;
+    background: purple;
+    border: 2px solid white;
+    padding-left: 15px;
+    padding-top: 5px;
+    outline: 0;
+    padding-right: 15px;
+}
+
+.contato2 input[type=submit]{
+    height: 30px;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 10px;
+    padding-bottom: 45px;
+    padding-left: 25px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+.contato{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+}
+.textfinal{
+    padding-top: 50px;
+    line-height: 70px;
+}
+.textfinal h2{
+    font-size:5.5em;
+}
+
+.textfinal p{
+    padding-top: 40px;
+    font-size: 2em;
+}
+.textfinal p i{
+    font-size: 70px;
+}
+
+.footer{
+    height: 50vh;
+
+}
+
+.footer h2{
+    font-size: 7em;
+    color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-shadow: 0 0 10px purple;
+    background: black;
+}
